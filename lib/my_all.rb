@@ -17,7 +17,7 @@ end
 
 collection = [1,2,3]
 
-my_all? do
+my_all?(collection) do
 collection.all? {|i| i < 2}
 end
   
